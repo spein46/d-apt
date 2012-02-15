@@ -12,7 +12,7 @@ To import the public key, run this command:
 
 `$ wget -q https://d-apt.googlecode.com/files/d-apt.key -O- | sudo apt-key add -`
 
-Need to update local info:
+To update local info:
 
 `$ sudo apt-get update`
 
