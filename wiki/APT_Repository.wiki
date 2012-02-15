@@ -1,12 +1,20 @@
-==D APT Repository==
+==APT Repository for D==
 
-===d-apt download files section can act as an ATP repository.===
+==="d-apt" download files section can act as an ATP repository.===
 ===This is helpful to easily install/upgrade D packages on Debian like systems.===
 
 
 To enable it, just edit /etc/apt/sources.list and add the following line:
 
 `deb http://d-apt.googlecode.com/files /`
+
+To import the public key, run this command:
+
+`$ wget -q https://d-apt.googlecode.com/files/d-apt.key -O- | sudo apt-key add -`
+
+Need to update local info:
+
+`$ sudo apt-get update`
 
 The following packages are available:
 
