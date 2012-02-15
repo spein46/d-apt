@@ -1,7 +1,7 @@
 ==APT Repository for D==
 
 ==="d-apt" download files section can act as an ATP repository.===
-===This is helpful to easily install/upgrade D packages on Debian like systems.===
+===This is helpful to easily install/upgrade D packages on Debian-like systems.===
 
 
 To enable it, just edit /etc/apt/sources.list and add the following line:
