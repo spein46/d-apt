@@ -19,5 +19,7 @@ To update local info:
 The following packages are available:
 
  * dmd
+ * libgtkd-dev
+ * libgtkd-doc
 
 Debianized source packages not available by the moment.
