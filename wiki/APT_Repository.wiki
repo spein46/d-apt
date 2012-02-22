@@ -10,7 +10,7 @@ To enable it, just edit /etc/apt/sources.list and add the following line:
 
 To import the public key, run this command:
 
-`$ wget -q https://d-apt.googlecode.com/files/d-apt.key -O- | sudo apt-key add -`
+`$ wget -qO- https://d-apt.googlecode.com/files/d-apt.key | sudo apt-key add -`
 
 To update local info:
 
