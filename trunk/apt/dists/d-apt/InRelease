@@ -1,0 +1,75 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Origin: D Packages
+Label: D Packages
+Codename: d-apt
+Date: Wed, 22 Feb 2012 13:18:16 UTC
+Architectures: i386 amd64
+Components: main
+Description: D Packages APT Repository
+MD5Sum:
+ 579ada9dd5e065544111e6e87bb58f08 3585 main/binary-i386/Packages
+ 6efc9b6e446a53ebcdd48d2efe2ac4ba 1600 main/binary-i386/Packages.gz
+ b217a6ec8d882dc6ed737b10565f284f 1740 main/binary-i386/Packages.bz2
+ c33cb182c7b98a4beb01f49b0b909445 111 main/binary-i386/Release
+ d46bd298f439bd882b9e28c68f556de4 3591 main/binary-amd64/Packages
+ 368e6f27a9aa3d35ea9abd9a12d64bf5 1598 main/binary-amd64/Packages.gz
+ 93079ac87c8163530cabd5e0f7608cb1 1729 main/binary-amd64/Packages.bz2
+ e44f6ad445f0d07a6c622fd7f74fc5f5 112 main/binary-amd64/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 main/source/Sources
+ 7029066c27ac6f5ef18d660d5741979a 20 main/source/Sources.gz
+ ce6275c68e0a0a7160977bc872b8b37f 113 main/source/Release
+ 7cd98e314e60ecaede92d58f32fcfae3 136883 Contents-i386
+ 2d20111e808aef4247e5c8b46a105d3f 12449 Contents-i386.gz
+ 89cf974cfab536b35ddce18aed2dfd6a 9503 Contents-i386.bz2
+ 7aca7d39a37b36126c8b1b85c04a6f40 136883 Contents-amd64
+ 0d393e116947f54d0aa7ccd02b6a43f6 12448 Contents-amd64.gz
+ 5ceb66bcf1676cc1c6a0a68a0eb8a9f7 9566 Contents-amd64.bz2
+SHA1:
+ 4fbb2c81e1984b9e1e772ca27c4e90fd01954d3f 3585 main/binary-i386/Packages
+ 5d071d53b10370b544ba3963b6fe0f6daea00b8e 1600 main/binary-i386/Packages.gz
+ 58977ba9120a6712d21797ae4a158e4b7e9ad5d2 1740 main/binary-i386/Packages.bz2
+ 4f3f86ed290e76af9b837dea95586814f88eeced 111 main/binary-i386/Release
+ 053bb70c403c00fd9a385abe33494e7b57e0627d 3591 main/binary-amd64/Packages
+ 0a385c322fea359944d68602778969f2e2cf7a06 1598 main/binary-amd64/Packages.gz
+ 4eedcd38f620fbce295bd6e16dcde3b135721465 1729 main/binary-amd64/Packages.bz2
+ fa8f8555c628b2f99c723cadf72c627b08b44636 112 main/binary-amd64/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/source/Sources
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/source/Sources.gz
+ 97ac3c35bc3bce8bce567119185ddd1b5ad5476d 113 main/source/Release
+ 2517dd5405e15de4d476125302fc0cb25f1f3c59 136883 Contents-i386
+ 54d4726d0d3de210522b86ca9314fc95cd5c58fa 12449 Contents-i386.gz
+ a7da0c7c2a1941e4ba8752025c09d8004f558a53 9503 Contents-i386.bz2
+ 09a0041417cf880a3731b61585fb9f0ef24d04aa 136883 Contents-amd64
+ 171741308d97a855ffde831066502995bf624ebb 12448 Contents-amd64.gz
+ 1431fb6fb783e5fc920a00f6adcb4538bdd2c348 9566 Contents-amd64.bz2
+SHA256:
+ 25268aaa51635d8d85a216c653c891f92f7e8d89531d12f25b94c67c6efeedb2 3585 main/binary-i386/Packages
+ fcfa0d413d5cfa51eb4afc2dee87d4a2fee6a8ef44e8ed1bae380463e94abf0c 1600 main/binary-i386/Packages.gz
+ 5a975b0eef80d10d898b2de769878102ada13fafaa30fdc9bcd3665c1f307e66 1740 main/binary-i386/Packages.bz2
+ 9b744fcdb473eee0972b412ca65f45fc7c0079e903ca4356394b6b9c4e6594fe 111 main/binary-i386/Release
+ cc59b9883f8f1a942e7f442eafb152af58c4f5b678e43ebfea916ded37f691c3 3591 main/binary-amd64/Packages
+ 42fde60e9281c72c0c1da23a8eed0fd8d2a79f32a81a2ac2e75af51e7f620b89 1598 main/binary-amd64/Packages.gz
+ 2f3be549750ded0ce298a21123ab5383085b78b4f68bf8627046eb2d40b7cc5b 1729 main/binary-amd64/Packages.bz2
+ bbd597938c197f4705c166a370a0533f64027026bee0986be27d265f31175350 112 main/binary-amd64/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/source/Sources
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/source/Sources.gz
+ 35e14f73339bece002e27f19570780f54f948134ef44bb3065765bc110a1a89f 113 main/source/Release
+ 7cf9c3b33814846e79612d2e779204317dc0fff09300acbf8f482300bfbc605a 136883 Contents-i386
+ 0aef020d55de3bdf84e2966c807bd80ef3f1c32933a8dd9570be0def585be571 12449 Contents-i386.gz
+ 46c1cf8ecd5f9feb00eab10dd953801d91e4d837c1306f4f78c50eefe31d6114 9503 Contents-i386.bz2
+ 07531f4f9ff24381c607d5cf5c24421cbf385e58d55cc4d38c56083add71a662 136883 Contents-amd64
+ 0ce2f856c8bf097c911e3d83d6bbddf85ac51a103101446486cb1beead3f64c3 12448 Contents-amd64.gz
+ 0d0e404fecc3ca27e1548b9ae11af46ab53b59e8100622b800e4e4c27aa68412 9566 Contents-amd64.bz2
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.11 (GNU/Linux)
+
+iQEcBAEBAgAGBQJPROsYAAoJEOvPl15bok1eoy0H/1ljAT77mukuTN73KWrZfs20
+hBR7GUnBG6OkKOETMCNdM5Wc49+pAHi6p/u+9QogxJjvrPPhhC9rTsvAq3oqOAlv
+TRvnqO5nQEW1MAeIuGikzI/9UOinuW/Z5J9KXzlDmpRIl0faqegp8vZv3Gd0foRq
+KquAa8uVzh2hBOPGPhE5WT5rvTw7b4Unq6G1x5SEFMwudl9u6k+zNkbVrMC0PJ9B
+HFBL+DCGymExfvdkmUY2A0SQw80580h4mSyByyCf8ww1I3ezcdfuJeEKvAaAO9aR
+7LeHtlHloHOQl/jjuYymJRF49jQDXH46ww8AoTRcS/SdySLwVMqRgd4hjEa08wQ=
+=NTAm
+-----END PGP SIGNATURE-----
