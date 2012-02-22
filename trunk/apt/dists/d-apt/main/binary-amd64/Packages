@@ -1,0 +1,100 @@
+Package: dmd
+Source: dmd
+Version: 2.058-0
+Architecture: amd64
+Maintainer: Jordi Sayol <g.sayol@yahoo.es>
+Installed-Size: 58876
+Depends: libc6-dev, gcc, gcc-multilib, libc6, libgcc1, libstdc++6, xdg-utils
+Homepage: http://d-programming-language.org/
+Priority: optional
+Section: devel
+Filename: pool/main/d/dmd/dmd_2.058-0_amd64.deb
+Size: 9252138
+SHA256: 3c8e0eca13dc2ae53e1c6d194bde368b656b5e101908de439a247eb6e657e742
+SHA1: b4bf94921fcda944891cce245db4ba2367e21e03
+MD5sum: be63c6e780be5b95217216c6093cf42a
+Description: Digital Mars D Compiler
+ D is a systems programming language. Its focus is on combining the power and
+ high performance of C and C++ with the programmer productivity of modern
+ languages like Ruby and Python. Special attention is given to the needs of
+ quality assurance, documentation, management, portability and reliability.
+ .
+ The D language is statically typed and compiles directly to machine code.
+ It's multiparadigm, supporting many programming styles: imperative,
+ object oriented, functional, and metaprogramming. It's a member of the C
+ syntax family, and its appearance is very similar to that of C++.
+ .
+ It is not governed by a corporate agenda or any overarching theory of
+ programming. The needs and contributions of the D programming community form
+ the direction it goes.
+ .
+ Main designer: Walter Bright
+
+Package: libgtkd-dev
+Source: gtkd
+Version: 1.5.1+svn933-0
+Architecture: amd64
+Maintainer: Jordi Sayol <g.sayol@yahoo.es>
+Installed-Size: 62332
+Depends: dmd (= 2.058-0), pkg-config
+Suggests: libgtkd-doc
+Conflicts: gtkd
+Replaces: gtkd
+Homepage: http://www.dsource.org/projects/gtkd
+Priority: optional
+Section: libs
+Filename: pool/main/g/gtkd/libgtkd-dev_1.5.1+svn933-0_amd64.deb
+Size: 8691300
+SHA256: c1f3d1ae60d9678ea7bfb13ddeab0e422dbc0d9279f0584bb149b5a37171ddf7
+SHA1: 0b8a97542605847873e15385abaa344853295189
+MD5sum: 989be2d3445d76181265cc9e4676d216
+Description: GTK+ for D (Development files)
+ GtkD is a D binding and OO wrapper of GTK+
+ .
+ This package contains the interface files and static libraries
+ which are needed for developing the GtkD applications.
+
+Package: libgtkd-doc
+Source: gtkd
+Version: 1.5.1+svn933-0
+Architecture: all
+Maintainer: Jordi Sayol <g.sayol@yahoo.es>
+Installed-Size: 44156
+Depends: www-browser
+Conflicts: gtkd-doc
+Replaces: gtkd-doc
+Homepage: http://www.dsource.org/projects/gtkd
+Priority: optional
+Section: doc
+Filename: pool/main/g/gtkd/libgtkd-doc_1.5.1+svn933-0_all.deb
+Size: 5034790
+SHA256: ff55a3bf96261e47074c2db32403c11950d7ed1f36b2d84612ca3c4daf032fd8
+SHA1: 4979dd9de83135cdd8fa163135ebd7c2debe7b46
+MD5sum: b60da0984c45c3e31eed16f934cd9a7e
+Description: GTK+ for D (Documentation and demos)
+ GtkD is a D binding and OO wrapper of GTK+
+ .
+ This package contains the documentation and demos for the GtkD library
+ in /usr/share/libgtkd-doc/ .
+
+Package: libplot2kill-dev
+Source: plot2kill
+Version: 0~2012.01.15-0
+Architecture: amd64
+Maintainer: Jordi Sayol <g.sayol@yahoo.es>
+Installed-Size: 5764
+Depends: dmd (= 2.058-0), libgtkd-dev (= 1.5.1+svn933-0), pkg-config
+Homepage: https://github.com/dsimcha/Plot2kill
+Priority: optional
+Section: libs
+Filename: pool/main/p/plot2kill/libplot2kill-dev_0~2012.01.15-0_amd64.deb
+Size: 690942
+SHA256: fae411c1da1728dd7c17d9d70b0bc34223402177dacc80bbf62b4aa5b7c5d2b2
+SHA1: 8b2dc5bb881a9e5a61292d2c1847fa4158af76e7
+MD5sum: da5dcc3e2ddba0c09cd059e6e6cb9cbd
+Description: Plot2kill for GtkD (Development files)
+ 2D Plotting Library for GtkD and DMD
+ .
+ This package contains the module files and static libraries
+ which are needed for developing the Plot2kill applications.
+
