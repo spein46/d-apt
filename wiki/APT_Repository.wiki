@@ -21,5 +21,6 @@ The following packages are available:
  * dmd
  * libgtkd-dev
  * libgtkd-doc
+ * libplot2kill-dev
 
 Debianized source packages not available by the moment.
