@@ -24,6 +24,8 @@ The following packages are available:
  * libplot2kill-dev (https://github.com/dsimcha/Plot2kill)
  * libtango-dev (https://github.com/SiegeLord/Tango-D2)
  * libtango-doc
+ * libdcollections-dev (http://www.dsource.org/projects/dcollections)
+ * libdcollections-doc
 
 To compile "gtkd" applications:
 {{{
@@ -32,12 +34,17 @@ $ dmd `pkg-config --cflags --libs gtkd` -m[32-64] my_gtkd_app.d
 
 To compile "plot2kill" applications:
 {{{
-$ dmd `pkg-config --cflags --libs p2k gtkd` -m[32-64] my_plot2kill_app.d
+$ dmd `pkg-config --cflags --libs plot2kill gtkd` -m[32-64] my_plot2kill_app.d
 }}}
 
 To compile "tango" applications:
 {{{
 $ dmd `pkg-config --cflags --libs tango` -m[32-64] my_tango_app.d
+}}}
+
+To compile "dcollections" applications:
+{{{
+$ dmd `pkg-config --cflags --libs dcollections` -m[32-64] my_dcollections_app.d
 }}}
 
 Debianized source packages not available by the moment.
