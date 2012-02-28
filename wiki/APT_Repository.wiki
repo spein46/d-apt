@@ -25,4 +25,7 @@ The following packages are available:
  * libtango-dev
  * libtango-doc
 
+To compile "gtkd" applications:
+`$ dmd \`pkg-config --cflags --libs gtks\` myapp.d`
+
 Debianized source packages not available by the moment.
