@@ -18,11 +18,11 @@ $ sudo apt-get update
 }}}
 The following packages are available:
 
- * dmd
- * libgtkd-dev
+ * dmd (http://dlang.org/)
+ * libgtkd-dev (http://www.dsource.org/projects/gtkd)
  * libgtkd-doc
- * libplot2kill-dev
- * libtango-dev
+ * libplot2kill-dev (https://github.com/dsimcha/Plot2kill)
+ * libtango-dev (https://github.com/SiegeLord/Tango-D2)
  * libtango-doc
 
 To compile "gtkd" applications:
