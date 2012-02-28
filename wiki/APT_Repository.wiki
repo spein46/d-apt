@@ -22,5 +22,7 @@ The following packages are available:
  * libgtkd-dev
  * libgtkd-doc
  * libplot2kill-dev
+ * libtango-dev
+ * libtango-doc
 
 Debianized source packages not available by the moment.
