@@ -5,17 +5,17 @@
 
 
 To enable it, just edit /etc/apt/sources.list and add the following line:
-
-`deb http://d-apt.googlecode.com/files /`
-
+{{{
+deb http://d-apt.googlecode.com/files /
+}}}
 To import the public key, run this command:
-
-`$ wget -qO- https://d-apt.googlecode.com/files/d-apt.key | sudo apt-key add -`
-
+{{{
+$ wget -qO- https://d-apt.googlecode.com/files/d-apt.key | sudo apt-key add -
+}}}
 To update local info:
-
-`$ sudo apt-get update`
-
+{{{
+$ sudo apt-get update
+}}}
 The following packages are available:
 
  * dmd
@@ -26,6 +26,18 @@ The following packages are available:
  * libtango-doc
 
 To compile "gtkd" applications:
-`$ dmd \`pkg-config --cflags --libs gtks\` myapp.d`
+{{{
+$ dmd `pkg-config --cflags --libs gtkd` -m[32-64] my_gtkd_app.d
+}}}
+
+To compile "plot2kill" applications:
+{{{
+$ dmd `pkg-config --cflags --libs p2k gtkd` -m[32-64] my_plot2kill_app.d
+}}}
+
+To compile "tango" applications:
+{{{
+$ dmd `pkg-config --cflags --libs tango` -m[32-64] my_tango_app.d
+}}}
 
 Debianized source packages not available by the moment.
