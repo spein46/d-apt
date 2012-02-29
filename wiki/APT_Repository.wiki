@@ -15,6 +15,7 @@ To update local info:
 {{{
 $ sudo apt-get update
 }}}
+----
 The following packages are available:
 
  * dmd (http://dlang.org/)
@@ -25,25 +26,24 @@ The following packages are available:
  * libtango-doc
  * libdcollections-dev (http://www.dsource.org/projects/dcollections)
  * libdcollections-doc
+----
+Every package contains a "pkg-config" configuration file for the specific library.
 
 To compile "gtkd" applications:
 {{{
-$ dmd `pkg-config --cflags --libs gtkd` -m[32-64] my_gtkd_app.d
+$ dmd `pkg-config --cflags --libs gtkd` my_gtkd_app.d
 }}}
 
-To compile "plot2kill" applications:
+To compile "plot2kill" applications, which depends on "gtkd":
 {{{
-$ dmd `pkg-config --cflags --libs plot2kill gtkd` -m[32-64] my_plot2kill_app.d
+$ dmd `pkg-config --cflags --libs plot2kill gtkd` my_plot2kill_app.d
 }}}
 
-To compile "tango" applications:
-{{{
-$ dmd `pkg-config --cflags --libs tango` -m[32-64] my_tango_app.d
-}}}
+All packages contains both 32-bit and 64-bit static libraries.
 
-To compile "dcollections" applications:
+To compile a "tango" application to 64-bit on a 32-bit system:
 {{{
-$ dmd `pkg-config --cflags --libs dcollections` -m[32-64] my_dcollections_app.d
+$ dmd `pkg-config --cflags --libs tango` -m64 my_tango_app.d
 }}}
 
 Debianized source packages not available by the moment.
