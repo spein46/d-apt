@@ -43,7 +43,7 @@ $ dmd `pkg-config --cflags --libs plot2kill gtkd` my_plot2kill_app.d
 
 All development packages contains both 32-bit and 64-bit static libraries.
 
-To compile a "tango" application to 64-bit on a 32-bit system:
+To compile "tango" applications to 64-bit on a 32-bit system:
 {{{
 $ dmd `pkg-config --cflags --libs tango` -m64 my_tango_app.d
 }}}
