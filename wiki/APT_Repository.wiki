@@ -47,5 +47,3 @@ To compile "tango" applications to 64-bit on a 32-bit system:
 {{{
 $ dmd `pkg-config --cflags --libs tango` -m64 my_tango_app.d
 }}}
-
-Debianized source packages not available by the moment.
