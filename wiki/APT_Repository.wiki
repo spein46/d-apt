@@ -3,17 +3,17 @@
 ==="d-apt" is an ATP repository to easily install/upgrade D packages on Debian-like systems.===
 
 
-To enable it, just edit /etc/apt/sources.list and add the following line:
+To enable it, just edit "/etc/apt/sources.list" and add the following line:
 {{{
 deb http://d-apt.googlecode.com/files /
 }}}
-To import the public key, run this command:
-{{{
-$ wget -qO- https://d-apt.googlecode.com/files/d-apt.key | sudo apt-key add -
-}}}
-To update local info:
+Update local info from apt servers:
 {{{
 $ sudo apt-get update
+}}}
+Import the apt public key:
+{{{
+$ sudo apt-get install --allow-unauthenticated d-apt-keyring
 }}}
 ----
 The following packages are available:
