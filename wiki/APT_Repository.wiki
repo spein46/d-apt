@@ -13,7 +13,7 @@ $ sudo apt-get update
 }}}
 Import the d-apt public key:
 {{{
-$ sudo apt-get install --allow-unauthenticated d-apt-keyring
+$ sudo apt-get --allow-unauthenticated install d-apt-keyring
 }}}
 ----
 The following packages are available:
