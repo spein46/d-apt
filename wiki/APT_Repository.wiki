@@ -11,7 +11,7 @@ Update local info from apt servers:
 {{{
 $ sudo apt-get update
 }}}
-Import the apt public key:
+Import the d-apt public key:
 {{{
 $ sudo apt-get install --allow-unauthenticated d-apt-keyring
 }}}
