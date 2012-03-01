@@ -19,13 +19,18 @@ $ sudo apt-get install --allow-unauthenticated d-apt-keyring
 The following packages are available:
 
  * dmd (http://dlang.org/)
+
  * libgtkd-dev (http://www.dsource.org/projects/gtkd)
  * libgtkd-doc
+
  * libplot2kill-dev (https://github.com/dsimcha/Plot2kill)
+
  * libtango-dev (https://github.com/SiegeLord/Tango-D2)
  * libtango-doc
+
  * libdcollections-dev (http://www.dsource.org/projects/dcollections)
  * libdcollections-doc
+
  * liborange-dmd-dev (https://github.com/jacob-carlborg/orange)
  * liborange-dmd-doc
 ----
