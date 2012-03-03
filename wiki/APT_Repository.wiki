@@ -7,13 +7,9 @@ To enable it, just edit "/etc/apt/sources.list" and add the following line:
 {{{
 deb http://d-apt.googlecode.com/files /
 }}}
-Update local info from apt servers:
+Update local info and import the d-apt public key:
 {{{
-$ sudo apt-get update
-}}}
-Import the d-apt public key:
-{{{
-$ sudo apt-get --allow-unauthenticated install d-apt-keyring
+$ sudo apt-get update && sudo apt-get --yes --allow-unauthenticated install d-apt-keyring && sudo apt-get update
 }}}
 ----
 The following binary packages are available:
