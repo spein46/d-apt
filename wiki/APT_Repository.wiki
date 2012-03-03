@@ -1,6 +1,6 @@
 ==APT Repository for D==
 
-==="d-apt" is an ATP repository to easily install/upgrade D packages on Debian-like systems.===
+==="d-apt" is an ATP repository to easily install/upgrade D binary packages on Debian-like systems.===
 
 
 To enable it, just edit "/etc/apt/sources.list" and add the following line:
@@ -16,7 +16,7 @@ Import the d-apt public key:
 $ sudo apt-get --allow-unauthenticated install d-apt-keyring
 }}}
 ----
-The following packages are available:
+The following binary packages are available:
 
  * dmd (http://dlang.org/)
 
@@ -33,6 +33,8 @@ The following packages are available:
 
  * liborange-dmd-dev (https://github.com/jacob-carlborg/orange)
  * liborange-dmd-doc
+----
+Debianized source packages not available.
 ----
 Every development package contains a "pkg-config" configuration file for the specific library.
 
