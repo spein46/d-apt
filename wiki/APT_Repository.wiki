@@ -36,17 +36,17 @@ Every dev package contains a "pkg-config" configuration file for the specific li
 
 To compile "gtkd" applications:
 {{{
-$ dmd `pkg-config --cflags --libs gtkd` my_gtkd_app.d
+$ dmd $(pkg-config --cflags --libs gtkd) my_gtkd_app.d
 }}}
 
 To compile "plot2kill" applications, which depends on "gtkd":
 {{{
-$ dmd `pkg-config --cflags --libs plot2kill gtkd` my_plot2kill_app.d
+$ dmd $(pkg-config --cflags --libs plot2kill gtkd) my_plot2kill_app.d
 }}}
 
 All dev packages contains both 32-bit and 64-bit static libraries.
 
 To compile 64-bit "tango" applications on a 32-bit system:
 {{{
-$ dmd `pkg-config --cflags --libs tango` -m64 my_tango_app.d
+$ dmd $(pkg-config --cflags --libs tango) -m64 my_tango_app.d
 }}}
