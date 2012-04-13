@@ -20,6 +20,7 @@ The following binary packages are available:
  * libgtkd-doc
 
  * libplot2kill-dev (https://github.com/dsimcha/Plot2kill)
+ * libplot2kill-doc
 
  * libtango-dev (https://github.com/SiegeLord/Tango-D2)
  * libtango-doc
@@ -29,6 +30,12 @@ The following binary packages are available:
 
  * liborange-dmd-dev (https://github.com/jacob-carlborg/orange)
  * liborange-dmd-doc
+
+ * libscid-dev (https://github.com/kyllingstad/scid)
+ * libscid-doc
+
+ * libspiritd-dev (https://github.com/div0/spiritd)
+ * libspiritd-doc
 ----
 Debianized source packages not available.
 ----
