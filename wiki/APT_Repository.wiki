@@ -31,7 +31,7 @@ The following binary packages are available:
  * liborange-dmd-dev (https://github.com/jacob-carlborg/orange)
  * liborange-dmd-doc
 
- * libscid-dev (https://github.com/kyllingstad/scid)
+ * libscid-dev (https://github.com/kyllingstad/scid/wiki)
  * libscid-doc
 
  * libspiritd-dev (https://github.com/div0/spiritd)
