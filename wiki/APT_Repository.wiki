@@ -31,7 +31,7 @@ The following binary packages are available:
  * liborange-dmd-dev (https://github.com/jacob-carlborg/orange)
  * liborange-dmd-doc
 
- * libscid-dev (https://github.com/kyllingstad/scid/wiki)
+ * libscid-dev `*` (https://github.com/kyllingstad/scid/wiki)
  * libscid-doc
 
  * libspiritd-dev (https://github.com/div0/spiritd)
@@ -46,9 +46,11 @@ i.e., to compile "plot2kill" applications, which depends on "gtkd":
 $ dmd `pkg-config --cflags --libs plot2kill gtkd` my_plot2kill_app.d
 }}}
 
-All dev packages contains both 32-bit and 64-bit static libraries.
+Almost all dev packages contains both 32-bit and 64-bit static libraries.
 
 i.e., to compile 64-bit "tango" applications on a 32-bit system:
 {{{
 $ dmd `pkg-config --cflags --libs tango` -m64 my_tango_app.d
 }}}
+
+`*` (these packages contains only a library for the host architecture due to external dependencies)
