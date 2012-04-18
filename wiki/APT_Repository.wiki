@@ -1,6 +1,6 @@
 ==APT Repository for D==
 
-==="d-apt" is an ATP repository to easily install/upgrade D binary packages on Debian-like systems.===
+==="d-apt" is an ATP repository to easily install/upgrade D binary packages on systems like Debian, Ubuntu, LinuxMint, etc.===
 
 
 To enable it, just edit "/etc/apt/sources.list" and add the following line:
