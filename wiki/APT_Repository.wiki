@@ -11,7 +11,7 @@ and add this line:
 {{{
 deb http://d-apt.googlecode.com/files /
 }}}
-Update local info and import d-apt public key:
+then update local info and import d-apt public key:
 {{{
 $ sudo apt-get update && sudo apt-get --yes --allow-unauthenticated install d-apt-keyring && sudo apt-get update
 }}}
