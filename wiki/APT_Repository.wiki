@@ -20,28 +20,28 @@ The following binary packages are available:
 
  * dmd (http://dlang.org/)
 
- * libgtkd-dev (http://www.dsource.org/projects/gtkd)
+ * libgtkd-dev (https://www.dsource.org/projects/gtkd)
  * libgtkd-doc
 
- * libplot2kill-dev (http://github.com/dsimcha/Plot2kill)
+ * libplot2kill-dev (https://github.com/dsimcha/Plot2kill)
  * libplot2kill-doc
 
- * libtango-dev (http://github.com/SiegeLord/Tango-D2)
+ * libtango-dev (https://github.com/SiegeLord/Tango-D2)
  * libtango-doc
 
- * libdcollections-dev (http://www.dsource.org/projects/dcollections)
+ * libdcollections-dev (https://www.dsource.org/projects/dcollections)
  * libdcollections-doc
 
- * liborange-dmd-dev (http://github.com/jacob-carlborg/orange)
+ * liborange-dmd-dev (https://github.com/jacob-carlborg/orange)
  * liborange-dmd-doc
 
- * libscid-dev (`*`) (http://github.com/kyllingstad/scid/wiki)
+ * libscid-dev (`*`) (https://github.com/kyllingstad/scid/wiki)
  * libscid-doc
 
- * libspiritd-dev (http://github.com/div0/spiritd)
+ * libspiritd-dev (https://github.com/div0/spiritd)
  * libspiritd-doc
 
- * libdstats-dev (http://github.com/dsimcha/dstats/wiki/Overview)
+ * libdstats-dev (https://github.com/dsimcha/dstats/wiki/Overview)
  * libdstats-doc
 
 (`*`) packages that contains only the library for the host architecture, due to external dependencies.
