@@ -20,7 +20,7 @@ The following binary packages are available:
 
  * dmd (http://dlang.org/)
 
- * libgtkd-dev (https://www.dsource.org/projects/gtkd)
+ * libgtkd-dev (http://www.dsource.org/projects/gtkd)
  * libgtkd-doc
 
  * libplot2kill-dev (https://github.com/dsimcha/Plot2kill)
@@ -29,7 +29,7 @@ The following binary packages are available:
  * libtango-dev (https://github.com/SiegeLord/Tango-D2)
  * libtango-doc
 
- * libdcollections-dev (https://www.dsource.org/projects/dcollections)
+ * libdcollections-dev (http://www.dsource.org/projects/dcollections)
  * libdcollections-doc
 
  * liborange-dmd-dev (https://github.com/jacob-carlborg/orange)
