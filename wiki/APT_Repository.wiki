@@ -3,7 +3,11 @@
 ==="d-apt" is an ATP repository to easily install/upgrade D binary packages on systems like Debian, Ubuntu, Linux Mint, etc.===
 
 
-To enable it, just edit "/etc/apt/sources.list" and add the following line:
+To enable it:
+{{{
+$ sudo gedit /etc/apt/sources.list
+}}}
+and add this line:
 {{{
 deb http://d-apt.googlecode.com/files /
 }}}
