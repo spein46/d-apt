@@ -23,7 +23,7 @@ The following binary packages are available:
  * libgtkd-dev (http://www.dsource.org/projects/gtkd)
  * libgtkd-doc
 
- * libplot2kill-dev (https://github.com/dsimcha/Plot2kill)
+ * libplot2kill-dev (https://github.com/dsimcha/Plot2kill/wiki/Overview)
  * libplot2kill-doc
 
  * libtango-dev (https://github.com/SiegeLord/Tango-D2)
