@@ -47,6 +47,8 @@ The following binary packages are available:
  * libmsgpack-dmd-dev (https://github.com/msgpack/msgpack-d)
  * libmsgpack-dmd-doc
 
+ * libderelict-dev (https://github.com/aldacron/Derelict3)
+
 (`*`) packages that contains only the library for the host architecture, due to external dependencies.
 ----
 Debianized source packages not available.
