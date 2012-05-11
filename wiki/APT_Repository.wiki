@@ -67,4 +67,4 @@ i.e., to compile 64-bit "tango" applications on a 32-bit system:
 $ dmd `pkg-config --cflags --libs tango` -m64 my_tango_app.d
 }}}
 
-All doc packages contains the library ddoc generated with candydoc, and add a system menu entry. Also contains examples, if any.
+All doc packages contains the library ddoc generated with candydoc, and add a system menu entry. Also contains examples if any.
