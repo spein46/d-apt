@@ -15,9 +15,7 @@ then update local info and import d-apt public key:
 {{{
 $ sudo apt-get update && sudo apt-get --yes --allow-unauthenticated install d-apt-keyring && sudo apt-get update
 }}}
-
-
-To install packages (i.e. GtkD library and documentation):
+To install packages: (i.e. GtkD library and documentation)
 {{{
 $ sudo apt-get install libgtkd-dev libgtkd-doc
 }}}
