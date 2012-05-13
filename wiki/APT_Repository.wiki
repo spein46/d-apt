@@ -53,6 +53,9 @@ The following binary packages are available:
 
  * libderelict-dev (https://github.com/aldacron/Derelict3)
 
+ * libgl3n-dev (https://github.com/Dav1dde/gl3n)
+ * libgl3n-doc
+
 (`*`) packages that contains only the library for the host architecture, due to external dependencies.
 ----
 Debianized source packages not available.
