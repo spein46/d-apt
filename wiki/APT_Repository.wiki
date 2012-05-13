@@ -22,44 +22,44 @@ $ sudo apt-get install libgtkd-dev libgtkd-doc
 ----
 The following binary packages are available:
 
- * *dmd* (http://dlang.org/)
+ * dmd (http://dlang.org/)
 
- * *libgtkd-dev* (http://www.dsource.org/projects/gtkd)
- * *libgtkd-doc*
+ * libgtkd-dev (http://www.dsource.org/projects/gtkd)
+ * libgtkd-doc
 
- * *libplot2kill-dev* (https://github.com/dsimcha/Plot2kill/wiki/Overview)
- * *libplot2kill-doc*
+ * libplot2kill-dev (https://github.com/dsimcha/Plot2kill/wiki/Overview)
+ * libplot2kill-doc
 
- * *libtango-dev* (https://github.com/SiegeLord/Tango-D2)
- * *libtango-doc*
+ * libtango-dev (https://github.com/SiegeLord/Tango-D2)
+ * libtango-doc
 
- * *libdcollections-dev* (http://www.dsource.org/projects/dcollections)
- * *libdcollections-doc*
+ * libdcollections-dev (http://www.dsource.org/projects/dcollections)
+ * libdcollections-doc
 
- * *liborange-dmd-dev* (https://github.com/jacob-carlborg/orange)
- * *liborange-dmd-doc*
+ * liborange-dmd-dev (https://github.com/jacob-carlborg/orange)
+ * liborange-dmd-doc
 
- * *libscid-dev (`*`)* (https://github.com/kyllingstad/scid/wiki)
- * *libscid-doc*
+ * libscid-dev (`*`) (https://github.com/kyllingstad/scid/wiki)
+ * libscid-doc
 
- * *libspiritd-dev* (https://github.com/div0/spiritd)
- * *libspiritd-doc*
+ * libspiritd-dev (https://github.com/div0/spiritd)
+ * libspiritd-doc
 
- * *libdstats-dev* (https://github.com/dsimcha/dstats/wiki/Overview)
- * *libdstats-doc*
+ * libdstats-dev (https://github.com/dsimcha/dstats/wiki/Overview)
+ * libdstats-doc
 
- * *libmsgpack-dmd-dev* (https://github.com/msgpack/msgpack-d)
- * *libmsgpack-dmd-doc*
+ * libmsgpack-dmd-dev (https://github.com/msgpack/msgpack-d)
+ * libmsgpack-dmd-doc
 
- * *libderelict-dev* (https://github.com/aldacron/Derelict3)
+ * libderelict-dev (https://github.com/aldacron/Derelict3)
 
- * *libgl3n-dev* (https://github.com/Dav1dde/gl3n)
- * *libgl3n-doc*
+ * libgl3n-dev (https://github.com/Dav1dde/gl3n)
+ * libgl3n-doc
 
- * *libdsqlite-dev (`*`)* (https://github.com/bioinfornatics/DSQLite)
- * *libdsqlite-doc*
+ * libdsqlite-dev (`*`) (https://github.com/bioinfornatics/DSQLite)
+ * libdsqlite-doc
 
-*(`*`)* packages that contains only the library for the host architecture, due to external dependencies.
+(`*`) packages that contains only the library for the host architecture, due to external dependencies.
 ----
 Debianized source packages not available.
 ----
