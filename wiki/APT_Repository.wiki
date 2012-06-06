@@ -59,6 +59,9 @@ The following binary packages are available:
  * libdsqlite-dev (`*`) (https://github.com/bioinfornatics/DSQLite)
  * libdsqlite-doc
 
+ * vibe (http://vibed.org/)
+ * vibe-doc
+
 (`*`) packages that contains only the library for the host architecture, due to external dependencies.
 ----
 Debianized source packages not available.
