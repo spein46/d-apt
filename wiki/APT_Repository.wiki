@@ -68,7 +68,7 @@ The following binary packages available:
   * libgl3n-dev
   * libgl3n-doc
 
- * SQLite (https://github.com/bioinfornatics/DSQLite)
+ * DSQLite (https://github.com/bioinfornatics/DSQLite)
   * libdsqlite-dev (`*`)
   * libdsqlite-doc
 
