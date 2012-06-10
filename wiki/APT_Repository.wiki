@@ -57,7 +57,7 @@ The following binary packages available:
   * libdstats-dev
   * libdstats-doc
 
- * !MessagePack (https://github.com/msgpack/msgpack-d)
+ * MessagePack (https://github.com/msgpack/msgpack-d)
   * libmsgpack-dmd-dev
   * libmsgpack-dmd-doc
 
