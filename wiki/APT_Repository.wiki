@@ -20,47 +20,61 @@ To install packages: (i.e. GtkD library and documentation)
 $ sudo apt-get --yes install libgtkd-dev libgtkd-doc
 }}}
 ----
-The following binary packages are available:
+The following binary packages available:
 
- * dmd (http://dlang.org/)
+ *  Digital Mars D compiler (http://dlang.org/)
+  * dmd
 
- * libgtkd-dev (http://www.dsource.org/projects/gtkd)
- * libgtkd-doc
+ * GtkD (http://www.dsource.org/projects/gtkd)
+  * libgtkd-dev
+  * libgtkd-doc
 
- * libplot2kill-dev (https://github.com/dsimcha/Plot2kill/wiki/Overview)
- * libplot2kill-doc
+ * Plot2kill  (https://github.com/dsimcha/Plot2kill/wiki/Overview)
+  * libplot2kill-dev
+  * libplot2kill-doc
 
- * libtango-dev (https://github.com/SiegeLord/Tango-D2)
- * libtango-doc
+ * Tango (https://github.com/SiegeLord/Tango-D2)
+  * libtango-dev
+  * libtango-doc
 
- * libdcollections-dev (http://www.dsource.org/projects/dcollections)
- * libdcollections-doc
+ * Dcollections (http://www.dsource.org/projects/dcollections)
+  * libdcollections-dev
+  * libdcollections-doc
 
- * liborange-dmd-dev (https://github.com/jacob-carlborg/orange)
- * liborange-dmd-doc
+ * Orange (https://github.com/jacob-carlborg/orange)
+  * liborange-dmd-dev
+  * liborange-dmd-doc
 
- * libscid-dev (`*`) (https://github.com/kyllingstad/scid/wiki)
- * libscid-doc
+ * SciD (https://github.com/kyllingstad/scid/wiki)
+  * libscid-dev (`*`)
+  * libscid-doc
 
- * libspiritd-dev (https://github.com/div0/spiritd)
- * libspiritd-doc
+ * SpiritD (https://github.com/div0/spiritd)
+  * libspiritd-dev
+  * libspiritd-doc
 
- * libdstats-dev (https://github.com/dsimcha/dstats/wiki/Overview)
- * libdstats-doc
+ * Dstats (https://github.com/dsimcha/dstats/wiki/Overview)
+  * libdstats-dev
+  * libdstats-doc
 
- * libmsgpack-dmd-dev (https://github.com/msgpack/msgpack-d)
- * libmsgpack-dmd-doc
+ * MessagePack (https://github.com/msgpack/msgpack-d)
+  * libmsgpack-dmd-dev
+  * libmsgpack-dmd-doc
 
- * libderelict-dev (https://github.com/aldacron/Derelict3)
+ * Derelict (https://github.com/aldacron/Derelict3)
+  * libderelict-dev
 
- * libgl3n-dev (https://github.com/Dav1dde/gl3n)
- * libgl3n-doc
+ * Gl3n (https://github.com/Dav1dde/gl3n)
+  * libgl3n-dev
+  * libgl3n-doc
 
- * libdsqlite-dev (`*`) (https://github.com/bioinfornatics/DSQLite)
- * libdsqlite-doc
+ * SQLite (https://github.com/bioinfornatics/DSQLite)
+  * libdsqlite-dev (`*`)
+  * libdsqlite-doc
 
- * vibe (http://vibed.org/)
- * vibe-doc
+ * Vibe.d (http://vibed.org/)
+  * vibe
+  * vibe-doc
 
 (`*`) packages that contains only the library for the host architecture, due to external dependencies.
 ----
