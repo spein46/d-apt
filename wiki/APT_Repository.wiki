@@ -22,57 +22,57 @@ $ sudo apt-get --yes install libgtkd-dev libgtkd-doc
 ----
 The following binary packages available:
 
- *  Digital Mars D compiler (http://dlang.org/)
+ *  [http://dlang.org/ Digital Mars D compiler]
   * dmd
 
- * GtkD (http://www.dsource.org/projects/gtkd)
+ * [http://www.dsource.org/projects/gtkd GtkD]
   * libgtkd-dev
   * libgtkd-doc
 
- * Plot2kill  (https://github.com/dsimcha/Plot2kill/wiki/Overview)
+ * [https://github.com/dsimcha/Plot2kill/wiki/Overview Plot2kill]
   * libplot2kill-dev
   * libplot2kill-doc
 
- * Tango (https://github.com/SiegeLord/Tango-D2)
+ * [https://github.com/SiegeLord/Tango-D2 Tango]
   * libtango-dev
   * libtango-doc
 
- * Dcollections (http://www.dsource.org/projects/dcollections)
+ * [http://www.dsource.org/projects/dcollections Dcollections]
   * libdcollections-dev
   * libdcollections-doc
 
- * Orange (https://github.com/jacob-carlborg/orange)
+ * [https://github.com/jacob-carlborg/orange Orange]
   * liborange-dmd-dev
   * liborange-dmd-doc
 
- * SciD (https://github.com/kyllingstad/scid/wiki)
+ * [https://github.com/kyllingstad/scid/wiki SciD]
   * libscid-dev (`*`)
   * libscid-doc
 
- * SpiritD (https://github.com/div0/spiritd)
+ * [https://github.com/div0/spiritd SpiritD]
   * libspiritd-dev
   * libspiritd-doc
 
- * Dstats (https://github.com/dsimcha/dstats/wiki/Overview)
+ * [https://github.com/dsimcha/dstats/wiki/Overview Dstats]
   * libdstats-dev
   * libdstats-doc
 
- * !MessagePack (https://github.com/msgpack/msgpack-d)
+ * [https://github.com/msgpack/msgpack-d MessagePack]
   * libmsgpack-dmd-dev
   * libmsgpack-dmd-doc
 
- * Derelict (https://github.com/aldacron/Derelict3)
+ * [https://github.com/aldacron/Derelict3 Derelict]
   * libderelict-dev
 
- * Gl3n (https://github.com/Dav1dde/gl3n)
+ * [https://github.com/Dav1dde/gl3n Gl3n]
   * libgl3n-dev
   * libgl3n-doc
 
- * DSQLite (https://github.com/bioinfornatics/DSQLite)
+ * [https://github.com/bioinfornatics/DSQLite DSQLite]
   * libdsqlite-dev (`*`)
   * libdsqlite-doc
 
- * Vibe.d (http://vibed.org/)
+ * [http://vibed.org/ Vibe.d]
   * vibe
   * vibe-doc
 
