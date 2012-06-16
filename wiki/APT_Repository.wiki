@@ -20,7 +20,7 @@ To install packages: (i.e. GtkD library and documentation)
 $ sudo apt-get --yes install libgtkd-dev libgtkd-doc
 }}}
 ----
-The following binary packages available:
+List of binary packages available:
 
  *  [http://dlang.org/ Digital Mars D compiler]
   * dmd
