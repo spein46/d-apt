@@ -76,22 +76,22 @@ List of binary packages available:
   * vibe
   * vibe-doc
 
-(`*`) packages that contains only the library for the host architecture, due to external dependencies.
+(`*`) packages that only contains the library for the host architecture, due to external dependencies.
 ----
 Debianized source packages not available.
 ----
 Every dev package contains a "pkg-config" configuration file for the specific library.
 
-i.e., to compile "Plot2kill" applications, which depends on "GtkD":
+i.e., to compile "Plot2kill" applications:
 {{{
-$ dmd `pkg-config --cflags --libs plot2kill gtkd` my_plot2kill_app.d
+$ dmd $(pkg-config --cflags --libs plot2kill) my_plot2kill_app.d
 }}}
 
 Almost all dev packages contains both 32-bit and 64-bit static libraries.
 
 i.e., to compile 64-bit "Tango" applications on a 32-bit system:
 {{{
-$ dmd `pkg-config --cflags --libs tango` -m64 my_tango_app.d
+$ dmd $(pkg-config --cflags --libs tango) -m64 my_tango_app.d
 }}}
 
 All doc packages contains the library ddoc generated with candydoc, and add a system menu entry. Also contains examples if any.
