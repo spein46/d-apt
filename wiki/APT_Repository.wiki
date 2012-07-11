@@ -76,7 +76,7 @@ List of binary packages available:
   * vibe
   * vibe-doc
 
-(`*`) packages that only contains the library for the host architecture, due to external dependencies.
+(`*`) packages that contains only the library for the host architecture, due to external dependencies.
 ----
 Debianized source packages not available.
 ----
