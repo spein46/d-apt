@@ -17,7 +17,7 @@ $ sudo apt-get update && sudo apt-get --yes --allow-unauthenticated install d-ap
 }}}
 To install packages: (i.e. GtkD library and documentation)
 {{{
-$ sudo apt-get --yes install libgtkd-dev libgtkd-doc
+$ sudo apt-get install libgtkd-dev libgtkd-doc
 }}}
 ----
 List of binary packages available:
