@@ -84,7 +84,7 @@ Every dev package contains a "pkg-config" configuration file for the specific li
 
 i.e., to compile "Plot2kill" applications:
 {{{
-$ dmd $(pkg-config --cflags --libs plot2kill gtkd) my_plot2kill_app.d
+$ dmd $(pkg-config --cflags --libs plot2kill) my_plot2kill_app.d
 }}}
 
 Almost all dev packages contains both 32-bit and 64-bit static libraries.
