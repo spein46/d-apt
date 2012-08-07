@@ -95,3 +95,5 @@ $ dmd $(pkg-config --cflags --libs tango) -m64 my_tango_app.d
 }}}
 
 All doc packages contains the library ddoc generated with candydoc, and add a system menu entry. Also contains examples if any.
+----
+If you have any questions or comments, please send me a message to: g.sayol at yahoo dot es
