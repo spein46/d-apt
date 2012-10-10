@@ -4,22 +4,23 @@
 
 
 To enable it:
-{{{
-$ sudo gedit /etc/apt/sources.list
-}}}
+
+<code language="xml">$ sudo gedit /etc/apt/sources.list</code>
+
 and add this line:
-{{{
-deb http://d-apt.googlecode.com/files /
-}}}
+
+<code language="xml">deb http://d-apt.googlecode.com/files /</code>
+
 then update local info and import d-apt public key:
-{{{
-$ sudo apt-get update && sudo apt-get --yes --allow-unauthenticated install d-apt-keyring && sudo apt-get update
-}}}
+
+<code language="xml">$ sudo apt-get update && sudo apt-get --yes --allow-unauthenticated install d-apt-keyring && sudo apt-get update</code>
+
 To install packages: (i.e. GtkD library and documentation)
-{{{
-$ sudo apt-get install libgtkd-dev libgtkd-doc
-}}}
+
+<code language="xml">$ sudo apt-get install libgtkd-dev libgtkd-doc</code>
+
 ----
+
 List of binary packages available:
 
  *  [http://dlang.org/ Digital Mars D compiler]
@@ -79,21 +80,23 @@ List of binary packages available:
 (`*`) packages that contains only the library for the host architecture, due to external dependencies.
 ----
 Debianized source packages not available.
+
 ----
+
 Every dev package contains a "pkg-config" configuration file for the specific library.
 
 i.e., to compile "Plot2kill" applications:
-{{{
-$ dmd `pkg-config --cflags --libs plot2kill` my_plot2kill_app.d
-}}}
+
+<code language="xml">$ dmd ``pkg-config --cflags --libs plot2kill`` my_plot2kill_app.d</code>
 
 Almost all dev packages contains both 32-bit and 64-bit static libraries.
 
 i.e., to compile 64-bit "Tango" applications on a 32-bit system:
-{{{
-$ dmd `pkg-config --cflags --libs tango` -m64 my_tango_app.d
-}}}
+
+<code language="xml">$ dmd ``pkg-config --cflags --libs tango`` -m64 my_tango_app.d</code>
 
 All doc packages contains the library ddoc generated with candydoc, and a system menu entry. Also contains examples if any.
+
 ----
+
 For questions and comments please send me a message to: g.sayol at gmail dot com
