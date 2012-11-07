@@ -1,17 +1,13 @@
-==APT Repository for D==
+==APT repository for D==
 
 ==="d-apt" is an ATP repository to easily install/upgrade D binary packages on systems like Debian, Ubuntu, Linux Mint, etc.===
 
 
-To enable it:
+Add repository sources:
 
-<code language="xml">$ sudo gedit /etc/apt/sources.list</code>
+<code language="xml">$ sudo wget -O /etc/apt/sources.list.d/d-apt.list http://d-apt.googlecode.com/files/sources.list</code>
 
-and add this line:
-
-<code language="xml">deb http://d-apt.googlecode.com/files /</code>
-
-then update local info and import d-apt public key:
+Import d-apt GPG public key to your keyring:
 
 <code language="xml">$ sudo apt-get update && sudo apt-get --yes --allow-unauthenticated install d-apt-keyring && sudo apt-get update</code>
 
