@@ -7,7 +7,7 @@ Add repository sources:
 
 <code language="xml">$ sudo wget -O /etc/apt/sources.list.d/d-apt.list http://d-apt.googlecode.com/files/sources.list</code>
 
-Import d-apt GPG public key to your keyring:
+Import d-apt GPG public key:
 
 <code language="xml">$ sudo apt-get update && sudo apt-get --yes --allow-unauthenticated install d-apt-keyring && sudo apt-get update</code>
 
