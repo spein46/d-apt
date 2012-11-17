@@ -17,7 +17,7 @@ To install packages: (i.e. GtkD library and documentation)
 
 ----
 
-List of binary packages available:
+List of binary packages:
 
  *  [http://dlang.org/ Digital Mars D compiler]
   * dmd
