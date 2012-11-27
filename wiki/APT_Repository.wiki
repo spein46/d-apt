@@ -5,7 +5,7 @@
 
 to enable it, add repository sources:
 
-<code language="xml">$ sudo wget -O /etc/apt/sources.list.d/d-apt.list https://d-apt.googlecode.com/files/d-apt.list</code>
+<code language="xml">$ sudo wget https://d-apt.googlecode.com/files/d-apt.list -O /etc/apt/sources.list.d/d-apt.list</code>
 
 then update local info and import d-apt public key:
 
