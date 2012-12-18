@@ -22,7 +22,7 @@ List of binary packages:
  *  [http://dlang.org/ Digital Mars D compiler]
   * dmd
 
- * [https://github.com/gtkd-developers/GtkD GtkD]
+ * [https://github.com/gtkd-developers/GtkD/wiki GtkD]
   * libgtkd-dev
   * libgtkd-doc
 
