@@ -13,7 +13,7 @@ then update local info and import d-apt public key:
 
 To install packages: (i.e. GtkD library and documentation)
 
-<code language="xml">$ sudo apt-get install libgtkd-dev libgtkd-doc</code>
+<code language="xml">$ sudo apt-get install libgtkd-2-dev libgtkd-2-doc</code>
 
 ----
 
@@ -23,12 +23,10 @@ List of binary packages:
   * dmd
 
  * [https://github.com/gtkd-developers/GtkD/wiki GtkD]
-  * libgtkd-dev
-  * libgtkd-doc
-
- * [https://github.com/dsimcha/Plot2kill/wiki/Overview Plot2kill]
-  * libplot2kill-dev
-  * libplot2kill-doc
+  * libgtkd-1-dev (GtkD for Gtk+2)
+  * libgtkd-1-doc
+  * libgtkd-2-dev (GtkD for Gtk+3)
+  * libgtkd-2-doc
 
  * [https://github.com/SiegeLord/Tango-D2 Tango]
   * libtango-dev
@@ -45,14 +43,6 @@ List of binary packages:
  * [https://github.com/kyllingstad/scid/wiki SciD]
   * libscid-dev (`*`)
   * libscid-doc
-
- * [https://github.com/div0/spiritd SpiritD]
-  * libspiritd-dev
-  * libspiritd-doc
-
- * [https://github.com/dsimcha/dstats/wiki/Overview Dstats]
-  * libdstats-dev
-  * libdstats-doc
 
  * [https://github.com/msgpack/msgpack-d MessagePack]
   * libmsgpack-dmd-dev
@@ -83,9 +73,9 @@ Debianized source packages not available.
 
 Every dev package contains a "pkg-config" configuration file for the specific library.
 
-i.e., to compile "Plot2kill" applications:
+i.e., to compile "gtkd-2" applications:
 
-<code language="xml">$ dmd ``pkg-config --cflags --libs plot2kill`` my_plot2kill_app.d</code>
+<code language="xml">$ dmd ``pkg-config --cflags --libs gtkd-2`` my_gtkd-2_app.d</code>
 
 Almost all dev packages contains both 32-bit and 64-bit static libraries.
 
@@ -94,7 +84,3 @@ i.e., to compile 64-bit "Tango" applications on a 32-bit system:
 <code language="xml">$ dmd ``pkg-config --cflags --libs tango`` -m64 my_tango_app.d</code>
 
 All doc packages contains the library ddoc generated with candydoc, and a system menu entry. Also contains examples if any.
-
-----
-
-For questions and comments please send me a message to: g.sayol at gmail dot com
