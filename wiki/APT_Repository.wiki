@@ -11,7 +11,7 @@ then update local info and import d-apt public key:
 
 <code language="xml">$ sudo apt-get update && sudo apt-get --yes --allow-unauthenticated install d-apt-keyring && sudo apt-get update</code>
 
-To install packages: (i.e. GtkD library and documentation)
+To install packages: (i.e. GtkD library and documentation for GTK+3)
 
 <code language="xml">$ sudo apt-get install libgtkd-2-dev libgtkd-2-doc</code>
 
