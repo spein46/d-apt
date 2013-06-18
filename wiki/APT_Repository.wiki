@@ -20,7 +20,9 @@ To install packages: (i.e. GtkD library and documentation for GTK+3)
 List of binary packages:
 
  *  [http://dlang.org/ Digital Mars D compiler]
-  * dmd
+  * dmd-bin (compiler and other binaries)
+  * libphobos2-63.2 (Runtime shared library)
+  * libphobos2-63.2-dev (symlink, module files and static library)
 
  * [https://github.com/gtkd-developers/GtkD/wiki GtkD]
   * libgtkd-1-dev (GtkD for GTK+2)
