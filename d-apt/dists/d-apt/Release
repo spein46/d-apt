@@ -1,0 +1,46 @@
+Origin: D Language
+Label: D Language
+Codename: d-apt
+Date: Wed, 19 Jun 2013 08:27:01 UTC
+Architectures: i386 amd64
+Components: main
+Description: D Language APT Repository
+MD5Sum:
+ fc86cf8b979d1fdd139f37210d41d909 590 main/binary-i386/Packages
+ 57641d9933106190fb9e97ca808114e2 412 main/binary-i386/Packages.gz
+ 1f41f8cccc98f095cd59046ef65d1b9e 447 main/binary-i386/Packages.bz2
+ a3d8413fb2f62b92fe76d8eda2c9f8ad 111 main/binary-i386/Release
+ fc86cf8b979d1fdd139f37210d41d909 590 main/binary-amd64/Packages
+ 57641d9933106190fb9e97ca808114e2 412 main/binary-amd64/Packages.gz
+ 1f41f8cccc98f095cd59046ef65d1b9e 447 main/binary-amd64/Packages.bz2
+ 51ed704183ff688010b92bfe67ff86f8 112 main/binary-amd64/Release
+ 3391cda3198f43c34c316a4770ece656 257 main/Contents-i386
+ 7dd4f9ddaf7809ad9c0f856e86bfc495 113 main/Contents-i386.gz
+ 3391cda3198f43c34c316a4770ece656 257 main/Contents-amd64
+ 7dd4f9ddaf7809ad9c0f856e86bfc495 113 main/Contents-amd64.gz
+SHA1:
+ 048afddd34cbc949873f449ca6fbc2b88766b2fa 590 main/binary-i386/Packages
+ 9beaa14788d8ed7e24b55caa8157e46218712b51 412 main/binary-i386/Packages.gz
+ c70254aefe368b6f8eb2e67e8b73bb122b51f1da 447 main/binary-i386/Packages.bz2
+ a464bddf784fd62f71cd15c775db4c79994c7050 111 main/binary-i386/Release
+ 048afddd34cbc949873f449ca6fbc2b88766b2fa 590 main/binary-amd64/Packages
+ 9beaa14788d8ed7e24b55caa8157e46218712b51 412 main/binary-amd64/Packages.gz
+ c70254aefe368b6f8eb2e67e8b73bb122b51f1da 447 main/binary-amd64/Packages.bz2
+ 8cfef521204a1d2f928965794491f92788d5ce61 112 main/binary-amd64/Release
+ 561e91f33ecd5f1f2f4a174ec3588a17d4d20f41 257 main/Contents-i386
+ 9338ef503cb8fe2d299e6f37f0e25e1b672651a5 113 main/Contents-i386.gz
+ 561e91f33ecd5f1f2f4a174ec3588a17d4d20f41 257 main/Contents-amd64
+ 9338ef503cb8fe2d299e6f37f0e25e1b672651a5 113 main/Contents-amd64.gz
+SHA256:
+ 154e936bd38b297f308324f4554bb4db90571ac04909cf829b8e3b4a6da9162b 590 main/binary-i386/Packages
+ 486857745aa520d8257cabb788b1d79dd21c8603aa6a535cd641d9c4bd5445d2 412 main/binary-i386/Packages.gz
+ 6dfe47e7569ce03e5f423ae762465ec5e6fe28f6af0468a6a23f47e94ff49458 447 main/binary-i386/Packages.bz2
+ 02c4b6d355e4bdee845000bcae5404406944fe53b9c38751cff8eb45c3dbe30d 111 main/binary-i386/Release
+ 154e936bd38b297f308324f4554bb4db90571ac04909cf829b8e3b4a6da9162b 590 main/binary-amd64/Packages
+ 486857745aa520d8257cabb788b1d79dd21c8603aa6a535cd641d9c4bd5445d2 412 main/binary-amd64/Packages.gz
+ 6dfe47e7569ce03e5f423ae762465ec5e6fe28f6af0468a6a23f47e94ff49458 447 main/binary-amd64/Packages.bz2
+ 17136bdc87eb75b98be0dbf68061c7c44522a737a0081a29961b7426b0a54d01 112 main/binary-amd64/Release
+ fc1a772999e88e56e35f0087ec5d91b898e2c5419d51c7798d6047ef0de14e12 257 main/Contents-i386
+ 50fc8a42939daf9b98341cf55cce268c641030d3433d0ec730d7781d34ae8ec5 113 main/Contents-i386.gz
+ fc1a772999e88e56e35f0087ec5d91b898e2c5419d51c7798d6047ef0de14e12 257 main/Contents-amd64
+ 50fc8a42939daf9b98341cf55cce268c641030d3433d0ec730d7781d34ae8ec5 113 main/Contents-amd64.gz
