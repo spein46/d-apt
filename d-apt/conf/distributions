@@ -1,0 +1,9 @@
+Origin: D Language
+Label: D Language
+Codename: d-apt
+Architectures: i386 amd64
+Components: main
+Description: D Language APT Repository
+SignWith: 5BA24D5E
+Contents: .gz
+DebIndices: Packages Release .gz .bz2
