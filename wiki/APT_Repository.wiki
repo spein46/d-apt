@@ -1,1 +1,1 @@
-==Due to changes on [http://google-opensource.blogspot.com.es/2013/05/a-change-to-google-code-download-service.html Google Code Download Service], "d-apt" project has been moved to [http://d-apt.sourceforge.net/ d-apt on SourceForge]==
+==Due to changes on [http://google-opensource.blogspot.com.es/2013/05/a-change-to-google-code-download-service.html Google Code Download Service], "d-apt" project has been moved to [http://d-apt.sourceforge.net/ SourceForge]==
