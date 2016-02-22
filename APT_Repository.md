@@ -1,0 +1,1 @@
+## Due to changes on [Google Code Download Service](http://google-opensource.blogspot.com.es/2013/05/a-change-to-google-code-download-service.html), "d-apt" project has been moved to [SourceForge](http://d-apt.sourceforge.net/) ##
